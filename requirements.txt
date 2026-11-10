@@ -1,0 +1,7 @@
+torch==2.8.0
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+h5py==3.16.0
+imufusion==1.3.3
+threadpoolctl==3.6.0

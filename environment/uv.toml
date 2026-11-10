@@ -1,0 +1,2 @@
+# Explicit project-local configuration; CPU Torch is a direct wheel in the lock.
+index-url = "https://pypi.org/simple"

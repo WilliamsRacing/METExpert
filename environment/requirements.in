@@ -1,0 +1,7 @@
+torch @ https://download-r2.pytorch.org/whl/cpu/torch-2.14.0%2Bcpu-cp311-cp311-win_amd64.whl#sha256=8e2c47c6556c7d5a85848634372bb2252907d411e9cad669c99406856d536eb5
+numpy==1.26.4
+scipy==1.17.1
+h5py==3.16.0
+imufusion==1.3.3
+pandas==2.3.3
+threadpoolctl==3.6.0

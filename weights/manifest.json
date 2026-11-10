@@ -1,0 +1,40 @@
+{
+  "format": "eating-detection.weights.1",
+  "components": {
+    "imu_context": {
+      "path": "weights/imu_context.pt",
+      "sha256": "23fba80d65475119c481eba02a4566bc7e456919cc2300a19b55eb3a3ea55a39",
+      "bytes": 2688147
+    },
+    "imu_primary": {
+      "path": "weights/imu_primary.pt",
+      "sha256": "263ef57d8ceaafd73108fd16254c3e46be558a955ec703b10f76b48cd1d1ecac",
+      "bytes": 1552773
+    },
+    "primary_fusion": {
+      "path": "weights/primary_fusion.pt",
+      "sha256": "e47cf8ecd8580e262a37fcb4e98335bdfc36a33b29d1b5c40df03e669877ad58",
+      "bytes": 23413
+    },
+    "ppg": {
+      "path": "weights/ppg.pt",
+      "sha256": "e214a6426b24729303b179c36886e225a97b226dad51fd8421e2b61021638e1c",
+      "bytes": 2067519
+    },
+    "event_ranker": {
+      "path": "weights/event_ranker.pt",
+      "sha256": "67408f514a63b6f4c60efffd52fa5b7bd2abf2b64d5ed81f924ce631c8456834",
+      "bytes": 7055
+    }
+  },
+  "decoder": {
+    "threshold": 0.5,
+    "low_threshold": 0.2,
+    "min_duration_seconds": 450,
+    "merge_gap_seconds": 60,
+    "short_min_duration_seconds": 300,
+    "short_high_fraction": 0.5,
+    "short_high_duration_seconds": 30,
+    "event_high_fraction": 0.0
+  }
+}
