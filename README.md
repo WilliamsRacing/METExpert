@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# ⌚ METExpert
+# ⌚ MEDExpert
 
 ### 基于六轴 IMU 与 PPG 特征融合的智能手表进食检测系统
 
